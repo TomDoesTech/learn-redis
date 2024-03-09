@@ -1,7 +1,13 @@
 # Learn Just Enough Redis to be Productive
 
-<img src="redis-logo.svg" width="48%" style="float:left;" />
-<img src="upstash.svg" width="48%" style="margin-left: 2%;" />
+<img src="redis-logo.svg" width="45%" style="float:left;" />
+<img src="upstash.svg" width="45%" />
+
+
+## Useful links
+- [Build & Deploy a Realtime App that Scales with Upstash Redis, Next.js & Fastify](https://youtu.be/cfEqS1A5diM)
+- [Upstash Redis](https://upstash.com/?utm_source=tom1)
+
 
 ## What you will learn
 - What Redis is
@@ -33,9 +39,6 @@
     - Pub/Sub
     - Indexes
     - Transactions
-
-
-
 
 ## Basic commands
 https://redis.io/commands/
