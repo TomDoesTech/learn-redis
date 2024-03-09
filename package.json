@@ -1,0 +1,33 @@
+{
+  "name": "problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo": "tsx watch index.ts",
+    "problems:caching": "tsx watch problems/1-caching.ts",
+    "problems:rate-limit": "tsx watch problems/2-rate-limit.ts",
+    "problems:pubsub": "tsx watch problems/3-pubsub.ts",
+    "problems:findby": "tsx watch problems/4-findby.ts",
+    "problems:transactions": "tsx watch problems/5-transactions.ts",
+
+    "solution:caching": "tsx watch solutions/1-caching.ts",
+    "solution:rate-limit": "tsx watch solutions/2-rate-limit.ts",
+    "solution:pubsub": "tsx watch solutions/3-pubsub.ts",
+    "solution:findby": "tsx watch solutions/4-findby.ts",
+    "solution:transactions": "tsx watch solutions/5-transactions.ts"
+  },
+  "keywords": [],
+  "author": "Tom Nagle",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.7.1"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.25",
+    "@upstash/ratelimit": "^1.0.1",
+    "@upstash/redis": "^1.28.4",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.3.2"
+  }
+}
